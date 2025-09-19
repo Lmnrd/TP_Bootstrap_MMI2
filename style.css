@@ -1,0 +1,112 @@
+body {
+    font-family: system-ui, "Segoe UI", Arial, sans-serif;
+    margin: 0;
+}
+
+.logo {
+    height: 54px;
+    width: auto;
+    vertical-align: middle;
+}
+
+h3 {
+    color: rgb(202, 48, 48);
+}
+
+.li {
+    color: rgb(210, 113, 16);
+}
+
+.nav-link {
+    color: rgb(232, 232, 232);
+}
+
+.nav-link:hover {
+    color: #d12406;
+    background-color: rgb(243, 243, 243, 0.3);
+    border-radius: 5%;
+}
+
+/* Taille du texte des liens dans la navbar */
+.navbar .nav-link {
+    font-size: 16.5px;
+}
+
+.carroussel img {
+    width: 100%;
+}
+
+/* Images pour les cartes d'activités du haut */
+.activite-img {
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+/* Styles barre de navigation transparente/solide */
+.barre-transparente {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.barre-solide {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Évite un décalage de contenu sous la navbar fixe si nécessaire */
+body.has-navbar-fixe {
+    padding-top: 70px;
+}
+
+/* Optionnel : couleurs des liens selon le fond */
+.barre-transparente .nav-link {
+    color: #ffffff;
+}
+
+.barre-solide .nav-link {
+    color: #000000;
+}
+
+.barre-solide .nav-link:hover {
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+/* Cartes services complémentaires */
+.services .service-card {
+    color: rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.40);
+    height: 100%;
+}
+
+.services .service-img {
+    max-height: 140px;
+    object-fit: contain;
+}
+
+.services .service-card:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn-service {
+    display: inline-block;
+    color: #d12406;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(209, 36, 6, 0.2);
+}
+
+.btn-service:hover {
+    color: #b51e05;
+    border-bottom-color: rgba(209, 36, 6, 0.5);
+}
+
+.nos-activites {
+    color: white;
+}
