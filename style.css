@@ -104,9 +104,97 @@ body.has-navbar-fixe {
 
 .btn-service:hover {
     color: #b51e05;
-    border-bottom-color: rgba(209, 36, 6, 0.5);
+    border-bottom-color: rgba(16, 12, 11, 0.5);
 }
 
 .nos-activites {
     color: white;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #eaf6ff;
+    padding: 60px 0;
+    color: #333;
+}
+
+.contact-section h2 {
+    color: #d12406;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-section hr {
+    width: 60px;
+    height: 3px;
+    background-color: #d12406;
+    border: none;
+    margin: 15px 0 30px;
+}
+
+.contact-section p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+/* Réseaux sociaux */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 2px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.social-icons img:hover {
+    background: #d12406;
+    border-color: #d12406;
+    transform: translateY(-2px);
+}
+
+/* Ajustement pour l'image X seulement */
+.social-icons a:first-child img {
+    width: 56px;
+    height: 50px;
+}
+
+/* Formulaire */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-section .form-control {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-section .form-control:focus {
+    border-color: #d12406;
+    box-shadow: 0 0 6px rgba(209, 36, 6, 0.3);
+    outline: none;
+}
+
+.contact-section .btn-primary {
+    background: #d12406;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.contact-section .btn-primary:hover {
+    background: #b51e05;
 }
